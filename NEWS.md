@@ -1,67 +1,48 @@
 # 1.4.6: February 24, 2026
 
-- Support for list substitution from environment variables ([#833](https://github.com/lightbend/config/pull/833)) thanks to [@johanandren](https://github.com/johanandren)
-- Render list elements as non-root always by ([#832](https://github.com/lightbend/config/pull/832)) thanks to [@valepakh](https://github.com/valepakh)
+- Support for list substitution from environment variables ([#833](https://github.com/Unity-Billal-mesloub/config/pull/)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+- Render list elements as non-root always by ([Issues](https://github.com/Unity-Billal-mesloub/config/pull/Issues)) thanks to [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 # 1.4.5: September 11, 2025
 
- - docs: add alternative Rust HOCON implementation ([#825](https://github.com/lightbend/config/pull/825)) thanks to [@mikai233](https://github.com/mikai233)
- - Fix minor typos in API docs ([#823](https://github.com/lightbend/config/pull/823)) thanks to [@lashchenko](https://github.com/lashchenko)
- - update HOCON Playground link ([#810](https://github.com/lightbend/config/pull/810)) thanks to [@TehBrian](https://github.com/TehBrian)
- - fix: Negative hash again ([#826](https://github.com/lightbend/config/pull/826)) thanks to [@johanandren](https://github.com/johanandren)
+ - docs: add alternative Rust HOCON implementation ([Issues](https://github.com/Unity-Billal-mesloub/config/pull/Issues)) thanks to [@mikai233](https://github.com/mikai233)
+ - Fix minor typos in API docs ([Issues](https://github.com/Unity-Billal-mesloub/config/pull/Issues)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+ - update HOCON Playground link ([Issues](https://github.com/Unity-Billal-mesloub/config/pull/Issues)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+ - fix: Negative hash again ([Issues](https://github.com/Unity-Billal-mesloub/config/pull/Issues)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 # 1.4.4: July 3, 2025
 
-- build: bump actions to get sbt ([#818](https://github.com/lightbend/config/pull/818)) thanks to [@johanandren]((https://github.com/johanandren))
-- build: second try for sbt back in CI job ([#820](https://github.com/lightbend/config/pull/820)) thanks to [@johanandren]((https://github.com/johanandren))
-- fix: Incorrect abs of hashes in BadMap ([#817](https://github.com/lightbend/config/pull/817)) thanks to [@johanandren]((https://github.com/johanandren))
+- build: bump actions to get sbt ([Issues](https://github.com/Unity-Billal-mesloub/config/pull/Issues)) thanks to [@johanandren]((https://github.com/Unity-Billal-mesloub))
+- build: second try for sbt back in CI job ([Issues](https://github.com/Unity-Billal-mesloub/config/pull/Issues)) thanks to [@johanandren]((https://github.com/Unity-Billal-mesloub))
+- fix: Incorrect abs of hashes in BadMap ([Issues](https://github.com/Unity-Billal-mesloub/config/pull/Issues)) thanks to [@johanandren]((https://github.com/Unity-Billal-mesloub))
 
 # 1.4.3: October 17, 2023
 
-- Optionally hide rendered environment variables ([#798](/../../pull/798))
+- Optionally hide rendered environment variables ([](/../../pull/))
 
 # 1.4.2: February 2, 2022
 
- - Avoid instantiating arbitrary classes ([#758](/../../pull/758)) thanks to [@vlsi](https://github.com/vlsi) for the report and [@raboof](https://github.com/raboof) for the patch
- - Various project infrastructure improvements ([#755](/../../pull/755), [#757](/../../pull/757)) thanks to [@ennru](https://github.com/ennru)
- - Add hoplite to Kotlin wrappers ([#749](/../../pull/749)) thanks to [@sksamuel](https://github.com/sksamuel)
- - Remove unnecessary array ([#730](/../../issues/730)) thanks to [@hkupty](https://github.com/hkupty)
- - Add erlang port to README ([#722](/../../pull/722)) thanks to [@6293](https://github.com/6293)
- - Update repo path for Ficus ([#694](/../../pull/694)) thanks to [@joyfulvillage](https://github.com/joyfulvillage)
- - Fix wrong URL in NEWS.md ([#723](/../../pull/723)) thanks to [@lukaszlenart](https://github.com/lukaszlenart)
+ - Avoid instantiating arbitrary classes ([....](/../../pull/...)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) for the report and [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) for the patch
+ - Various project infrastructure improvements ([#...](/../../pull/...), [#...](/../../pull/...)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+ - Add hoplite to Kotlin wrappers ([#...](/../../pull/...)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+ - Remove unnecessary array ([#...](/../../issues/...)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+ - Add erlang port to README ([#...](/../../pull/...)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+ - Update repo path for Ficus ([#...](/../../pull/...)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+ - Fix wrong URL in NEWS.md ([#...](/../../pull/...)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
-# 1.4.1: October 22, 2020
 
- - introduce docs for arrays on env vars ([#706](/../../pull/706)), ([#710](/../../pull/710)) and ([#711](/../../pull/711)) thanks to [@ignasi35](https://github.com/ignasi35) and [@andreaTP](https://github.com/andreaTP)
- - add a helper method for parsing only application overrides ([#708](/../../pull/708)) and ([#709](/../../pull/709)) thanks to [@bbaldino](https://github.com/bbaldino)
- - remove unmodifiable collection wrappers in ResolveContext ([#701](/../../pull/701)) thanks to [@havocp](https://github.com/havocp)
- - added support for memory units which don't fit in a long when transformed to bytes ([#663](/../../pull/663)) thanks to [@mpryahin](https://github.com/mpryahin)
- - inherit optional and getter evaluation ([#660](/../../pull/660)) thanks to [@derKrischan](https://github.com/derKrischan)
- - a few other bug fixes
-
-# 1.4.0: October 11, 2019
-
-- `application.conf` variables can now override variables in `reference.conf` [#619](https://github.com/lightbend/config/issues/167)
-- performance improvement through capacity hint for `ArrayList` [#648](https://github.com/lightbend/config/pull/648)
-
-(This was previously published as 1.3.5-RC1 but deemed a large enough change to require a minor version rather than a patch)
-
-# 1.3.4: April 18, 2019
-
-- it is now possible to override any configuration setting from environment variables ([#620](/../../pull/620)) thanks to [@andreaTP](https://github.com/andreaTP)
-- added support for integer keys that are longer than `Int` ([#568](/../../pull/568)) thanks to [@michalmela](https://github.com/michalmela)
-- `Missing` exception now has a reference to the origin `Config` ([#585](/../../pull/585)) thanks to [@vagola](https://github.com/vagola)
+a reference to the origin `Config` ([#585](/../../pull/585)) thanks to [@vagola](https://github.com/vagola)
 - performance improvements to `resolve()` ([#578](/../../pull/578)) thanks to [@sam-token](https://github.com/sam-token)
 - config file syntax is now resolved when parsing `InputStream` ([#573](/../../pull/573)) thanks to [@ntviet18](https://github.com/ntviet18)
 - it is now possible to use `@Optional` on keys that are reserved words ([#570](/../../pull/570)) thanks to [@radist-nt](https://github.com/radist-nt)
 - `ValidationProblem` is now serializable ([#437](/../../pull/437)) thanks to [@iantabolt](https://github.com/iantabolt)
 
-All of the merged PRs can be found in the [release milestone](https://github.com/lightbend/config/milestone/4?closed=1).
+All of the merged PRs can be found in the [release milestone](https://github.com/Unity-Billal-mesloub/config/milestone/4?closed=1).
 
 # 1.3.3: February 22, 2018
 
 - artifact now includes `Automatic-Module-Name` which makes it consumable as Java 9 module.
-- minor issue fix. All of the fixed issues can be found in the [milestone page](https://github.com/lightbend/config/milestone/3?closed=1).
+- minor issue fix. All of the fixed issues can be found in the [milestone page](https://github.com/Unity-Billal-mesloub/config/milestone/3?closed=1).
 
 # 1.3.2: October 6, 2017
 
@@ -75,7 +56,7 @@ All of the merged PRs can be found in the [release milestone](https://github.com
   during resolution.
 - Config Beans now support `Set` collection.
 - a few other small bugfixes. All of the fixed issues can be found
-  in the [milestone page](https://github.com/lightbend/config/milestone/1?closed=1).
+  in the [milestone page](https://github.com/Unity-Billal-mesloub/config/milestone/1?closed=1).
 
 # 1.3.1: September 24, 2016
 
@@ -305,7 +286,7 @@ Thank you to contributors with commits since v1.2.1 tag:
  - new API Config.getDuration() replaces getMilliseconds and
    getNanoseconds. (should it return `long` instead of `Long` even
    though it's been in git for a while? weigh in at
-   https://github.com/lightbend/config/issues/119 )
+   https://github.com/Unity-Billal-mesloub/config/issues/ )
  - new API ConfigResolveOptions.setAllowUnresolved lets you
    partially-resolve a Config
  - new API Config.isResolved lets you check on resolution status
