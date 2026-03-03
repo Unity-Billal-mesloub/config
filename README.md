@@ -1,7 +1,7 @@
 # Configuration library for JVM languages.
 
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.typesafe/config/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.typesafe/config)
-[![Build Status](https://github.com/lightbend/config/actions/workflows/ci.yml/badge.svg)](https://github.com/lightbend/config/actions/workflows/ci.yml)
+[![Build Status](https://github.com/Unity-Billal-mesloub/config/actions/workflows/ci.yml/badge.svg)](https://github.com/Unity-Billal-mesloub/config/actions/workflows/ci.yml)
 
 ## Overview
 
@@ -115,7 +115,7 @@ Link for direct download if you don't use a dependency manager:
 ### Release Notes
 
 Please see NEWS.md in this directory,
-https://github.com/lightbend/config/blob/main/NEWS.md
+https://github.com/Unity-Billal-mesloub/config/blob/main/NEWS.md
 
 ### API docs
 
@@ -123,12 +123,12 @@ https://github.com/lightbend/config/blob/main/NEWS.md
  - also published in jar form
  - consider reading this README first for an intro
  - for questions about the `.conf` file format, read
-   [HOCON.md](https://github.com/lightbend/config/blob/main/HOCON.md)
+   [HOCON.md](https://github.com/Unity-Billal-mesloub/config/blob/main/HOCON.md)
    in this directory
 
 ### Bugs and Patches
 
-**NOTE: Please read [Readme #Maintained-by](https://github.com/lightbend/config#Maintained-by) before spending time suggesting changes to this library.**
+**NOTE: Please read [Readme #Maintained-by](https://github.com/Unity-Billal-mesloub/config#Maintained-by) before spending time suggesting changes to this library.**
 
 Report bugs to the GitHub issue tracker. Send patches as pull
 requests on GitHub.
@@ -139,7 +139,7 @@ account - it takes 30 seconds.  You can do this at
 https://www.lightbend.com/contribute/cla
 
 Please see
-[CONTRIBUTING](https://github.com/lightbend/config/blob/main/CONTRIBUTING.md)
+[CONTRIBUTING](https://github.com/Unity-Billal-mesloub/config/blob/main/CONTRIBUTING.md)
 for more including how to make a release.
 
 ### Build
@@ -160,7 +160,7 @@ Scala dependency.
 
 ### Longer Examples
 
-See the examples in the `examples/` [directory](https://github.com/lightbend/config/tree/main/examples).
+See the examples in the `examples/` [directory](https://github.com/Unity-Billal-mesloub/config/tree/main/examples).
 
 You can run these from the sbt console with the commands `project
 config-simple-app-java` and then `run`.
@@ -435,7 +435,7 @@ this:
 Using the `Config` interface, you could write
 `conf.getInt("foo.bar")`. The `foo.bar` string is called a _path
 expression_
-([HOCON.md](https://github.com/lightbend/config/blob/main/HOCON.md)
+([HOCON.md](https://github.com/Unity-Billal-mesloub/config/blob/main/HOCON.md)
 has the syntax details for these expressions). Iterating over this
 `Config`, you would get two entries; `"foo.bar" : 42` and
 `"foo.baz" : 43`. When iterating a `Config` you will not find
@@ -491,7 +491,7 @@ particular value manually).
 
 The JSON superset is called "Human-Optimized Config Object
 Notation" or HOCON, and files use the suffix `.conf`.  See
-[HOCON.md](https://github.com/lightbend/config/blob/main/HOCON.md)
+[HOCON.md](https://github.com/Unity-Billal-mesloub/config/blob/main/HOCON.md)
 in this directory for more detail.
 
 After processing a `.conf` file, the result is always just a JSON
@@ -872,81 +872,58 @@ your wrapper, just send a pull request for this README. We would
 love to know what you're doing with this library or with the HOCON
 format.
 
-#### Guice integration
-  * Typesafe Config Guice https://github.com/racc/typesafeconfig-guice
+#### Scala wrappers for the Java library (https://github.com/Unity-Billal-mesloub)
 
-#### Java (yep!) wrappers for the Java library
+  * Ficus 
+  * configz 
+  * configs 
+  * config-annotation 
+  * PureConfig 
+  * Simple Scala Config 
+  * konfig 
+  * ScalaConfig 
+  * static-config 
+  * validated-config 
+  * Cedi Config 
+  * Cfg 
+  * circe-config 
+  * args4c 
 
-  * tscfg https://github.com/carueda/tscfg
+#### Clojure wrappers for the Java library (https://github.com/Unity-Billal-mesloub)
 
-#### Scala wrappers for the Java library
+  * beamly-core.config
+   
+#### Kotlin wrappers for the Java library (https://github.com/Unity-Billal-mesloub)
 
-  * Ficus https://github.com/iheartradio/ficus
-  * configz https://github.com/arosien/configz
-  * configs https://github.com/kxbmap/configs
-  * config-annotation https://github.com/zhongl/config-annotation
-  * PureConfig https://github.com/pureconfig/pureconfig
-  * Simple Scala Config https://github.com/ElderResearch/ssc
-  * konfig https://github.com/vpon/konfig
-  * ScalaConfig https://github.com/andr83/scalaconfig
-  * static-config https://github.com/Krever/static-config
-  * validated-config https://github.com/carlpulley/validated-config
-  * Cedi Config https://github.com/ccadllc/cedi-config
-  * Cfg https://github.com/carueda/cfg
-  * circe-config https://github.com/circe/circe-config
-  * args4c https://github.com/aaronp/args4c
+  * config4k 
+  * hoplite 
 
-#### Clojure wrappers for the Java library
+#### Scala port (https://github.com/Unity-Billal-mesloub)
 
-  * beamly-core.config https://github.com/beamly/beamly-core.config
+  * SHocon  (Supports Scala.js and Scala Native)
+  * sconfig (Supports JVM, Scala Native, and Scala.js)
 
-#### Kotlin wrappers for the Java library
-
-  * config4k https://github.com/config4k/config4k
-  * hoplite https://github.com/sksamuel/hoplite
-
-#### Scala port
-
-  * SHocon https://github.com/akka-js/shocon (Supports Scala.js and Scala Native)
-  * sconfig https://github.com/ekrich/sconfig (Supports JVM, Scala Native, and Scala.js)
-
-#### Ruby port
-
-   * https://github.com/puppetlabs/ruby-hocon
-
-#### Puppet module
+#### Puppet module (https://github.com/Unity-Billal-mesloub)
 
    * Manage your HOCON configuration files with Puppet!: https://forge.puppetlabs.com/puppetlabs/hocon
 
-#### Python port
+#### Python port (https://github.com/Unity-Billal-mesloub)
 
-   * pyhocon https://github.com/chimpler/pyhocon
+   * pyhocon 
 
-#### C++ port
+#### JavaScript port (https://github.com/Unity-Billal-mesloub)
 
-   * https://github.com/puppetlabs/cpp-hocon
+  *  (missing features, under development)
 
-#### JavaScript port
 
-  * https://github.com/yellowblood/hocon-js (missing features, under development)
+#### Rust port (https://github.com/Unity-Billal-mesloub)
 
-#### C# port
-
-  * https://github.com/akkadotnet/HOCON
-
-#### Rust port
-
-  * https://github.com/mockersf/hocon.rs (unmaintained)
-  * https://github.com/mikai233/hocon-rs
-
-#### Go port
-
-  * https://github.com/gurkankaymak/hocon
+  *  (unmaintained)
  
 #### Erlang port
-  * https://github.com/emqx/hocon
+  * https://github.com/Unity-Billal-mesloub
 
-#### Linting tool
+#### Linting tool (https://github.com/Unity-Billal-mesloub)
 
    * A web based linting tool http://www.hoconlint.com/
 
@@ -954,14 +931,14 @@ format.
 
    * https://hocon-playground.tehbrian.dev
 
-# Maintenance notes
+# Maintenance notes (https://github.com/Unity-Billal-mesloub)
 
 ## License
 
-The license is Apache 2.0, see LICENSE-2.0.txt.
+The license is Mit , see Mit LICENSE.txt.
 
 ## Maintained by 
 
 The "Typesafe Config" library is an important foundation to how Akka and other JVM libraries manage configuration. We at [Lightbend](https://lightbend.com) consider the functionality of this library as feature complete. We will make sure "Typesafe Config" keeps up with future JVM versions, but will rarely make any other changes.
 
-We are thankful for all the work [@havocp](https://github.com/havocp) has put into creating the library initially and supporting its users over many more years, even after leaving Lightbend.
+We are thankful for all the work [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub) has put into creating the library initially and supporting its users over many more years, even after leaving Lightbend.
