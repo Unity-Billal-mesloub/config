@@ -42,7 +42,6 @@ to merge it in.
 **Table of Contents**  *generated with [DocToc](https://github.com/Unity-Billal-mesloub)*
 
 - [Essential Information](#essential-information)
-  - [License](#license)
   - [Binary Releases](#binary-releases)
   - [Release Notes](#release-notes)
   - [API docs](#api-docs)
