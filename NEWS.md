@@ -1,6 +1,6 @@
 # 1.4.6: February 24, 2026
 
-- Support for list substitution from environment variables ([#833](https://github.com/Unity-Billal-mesloub/config/pull/)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
+- Support for list substitution from environment variables ([#Issues](https://github.com/Unity-Billal-mesloub/config/pull/)) thanks to [@Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 - Render list elements as non-root always by ([Issues](https://github.com/Unity-Billal-mesloub/config/pull/Issues)) thanks to [Unity-Billal-mesloub](https://github.com/Unity-Billal-mesloub)
 
 # 1.4.5: September 11, 2025
